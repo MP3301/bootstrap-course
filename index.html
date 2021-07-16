@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        .row>div {
+            background: #f2f2f2;
+            margin: 10px 0;
+        }
+    </style>
+
+    <div data-spy="scroll" data-target="#navId">
+
+        <div id="navId">
+            <ul class="nav nav-tabs" role="tablist">
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script>
+        $('div{1:div|body}').scrollspy({
+            target: '#navId'
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>hi</h1>
+                <p>esto es un texto de prueba</p>
+                <button class="btn btn-primary">boton</button>
+            </div>
+            <div class="col-4">
+                <h1>hi</h1>
+                <p>esto es un texto de prueba</p>
+                <button class="btn btn-primary">boton</button>
+            </div>
+            <div class="col-4">
+                <h1>hi</h1>
+                <p>esto es un texto de prueba</p>
+                <button class="btn btn-primary">boton</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.js"></script>
+</body>
+
+</html>
